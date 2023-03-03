@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="bootstrap/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="./css/Contact.css">
+<link rel="stylesheet" href="./css/Home.css">
+<script src="./Jquery/jquery-3.6.3.min.js"></script>
+    <title>Contact Us</title>
+    <!--icons-->
+    <link href="fontawesome/css/all.min.css">
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+          integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    <!--icons-->
+</head>
+<body>
+<div class="sticky-nav">
+    <nav class="navbar navbar-expand-md navbar-color" id="navbar-color">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img src="./photoicon/logo.png" alt="" width="200">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav" style="margin-left: 41%;">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Badroom.html">Bedroom</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Living.html">Living</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./dining.html">Dining</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="border-bottom: 2px solid grey" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+<section class="contact">
+    <div class="content">
+        <h2>Contact Us</h2>
+        <p>Feel free to talk to our online representative at any time you please using our Live Chat system on our
+            website or one of the below instant messaging programs.</p>
+    </div>
+    <div class="container" id="container">
+        <div class="contactInfo">
+            <div class="box">
+                <div class="icon1"><i class="fa fa-map-marker" aria-hidden="true"></i>
+                </div>
+                <div class="text">
+                    <h3>Address</h3>
+                    <p>A-12,Creative Furniture,Sarthana,varachha road,Surat</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icon1"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                <div class="text">
+                    <h3>Phone</h3>
+                    <p>973-722-5684</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icon1"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                <div class="text">
+                    <h3>Email</h3>
+                    <p>creativefurniture25@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="contactForm">
+            <form action="#">
+                <h2>Send message</h2>
+                <div class="inputBox">
+                    <input type="text" id="name" required>
+                    <span>Full Name</span>
+                </div>
+                <div class="inputBox">
+                    <input type="text" id="email" required>
+                    <span>Email</span>
+                </div>
+                <div class="inputBox">
+                    <input type="text" id="phone" required>
+                    <span>Phone Number</span>
+                </div>
+                <div class="inputBox">
+                    <textarea id="msg" required></textarea>
+                    <span>Type your Message...</span>
+                </div>
+                <p class="text-center" id="Error"></p>
+                <div class="inputBox text-center">
+                    <input type="submit" id="Submit" value="send">
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+<button type="button" title="Back To Top" class="btn rounded-circle border btn-lg" id="back-top">
+    <i class="fas fa-arrow-up"></i>
+</button>
+<footer id="footer">
+    <h1 class="text-center">CREATIVE</h1>
+    <p class="text-center">&#10077 Transform your space with our stylish and functional furniture collections. &#10078</p>
+    <div class="icons text-center">
+        <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"><i
+                class="fa-brands fa-twitter bg-light text-dark p-2"></i></a>
+        <a href="https://www.google.com/"><i class="fa-brands fa-google bg-light text-dark p-2"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook bg-light text-dark p-2"></i></a>
+        <a href="#"><i class="fa-brands fa-skype bg-light text-dark p-2"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram bg-light text-dark p-2"></i></a>
+    </div>
+    <div class="copright text-center">
+        &copy;Copyright <strong><span>Furniture</span></strong>.All Rights Reserved
+    </div>
+    <div class="credite text-center">
+        Designed By <a href="">Creative Furniture</a>
+    </div>
+</footer>
+<script>
+     $(document).ready(function(){
+            $('#Submit').click(function (e) {
+                e.preventDefault();
+                let name = $('#name').val();
+                let email = $('#email').val();
+                let phno = $('#phone').val();
+                let msg = $('#msg').val();
+
+                var name_format = /^[A-Z a-z]+$/;
+                var email_format = /^\w+([\.-]?\w+)@\w+([\.-]?\w+)(\.\w{2,3})+$/;
+                if (name.match(name_format) && email.match(email_format) && phno.length == 10 && msg != "" && !isNaN(phno) ) {
+                    $("#Error").text("Your Data Submitted Successfully!").css({ color: 'green' });
+                }
+                else {
+                    $("#Error").text("Your Data not Submitted Please Enter valid Information!").css({ color: 'red' });
+                }
+            })
+        })
+</script>
+<script src="./fontawesome/js/all.min.js"></script>
+<script src="./bootstrap/bootstrap.min.js"></script>
+<script src="./css/script.js"></script>
+</body>
+</html>

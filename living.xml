@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+    <chairs>
+        <img>./photoicon/chair1.webp</img>
+        <title>Nicco Wing Chair - Reflection Green</title>
+        <price>₹ 4,500/-</price>
+        <discount>5,000/-</discount>
+    </chairs>
+    <chairs>
+        <img>./photoicon/chair2.jfif</img>
+        <title>Nicco Wing Chair + Ottoman - Reflection Green</title>
+        <price>₹ 3,700/-</price>
+        <discount>3,600/-</discount>
+    </chairs>
+    <chairs>
+        <img>./photoicon/chair3.jpg</img>
+        <title>Tropical Wing Chair - Printed Fabric Clarise</title>
+        <price>₹ 4,000/-</price>
+        <discount>4,900/-</discount>
+    </chairs>
+    <chairs>
+        <img>./photoicon/chair4.webp</img>
+        <title>Tropical Wing Chair - Printed Fabric Paula</title>
+        <price>₹ 4,200/-</price>
+        <discount>42,500/-</discount>
+    </chairs>
+    <chairs>
+        <img>./photoicon/chair5.jfif</img>
+        <title>Ambrose Metal Rocking Chair</title>
+        <price>₹ 34,00/-</price>
+        <discount>35,000/-</discount>
+    </chairs>
+    <chairs>
+        <img>./photoicon/chair6.jfif</img>
+        <title>Airavat High Back Chrome Base Office Chair (Black)</title>
+        <price>₹ 2,500/-</price>
+        <discount>2,800/-</discount>
+    </chairs>
+    <chairs>
+        <img>./photoicon/chair7.jfif</img>
+        <title>Baxter Solid Wood Chair</title>
+        <price>₹ 2,300/-</price>
+        <discount>2,500/-</discount>
+    </chairs>
+    <chairs>
+        <img>./photoicon/chair8.jfif</img>
+        <title>Cashmere Plus  chaire with Shelves, Drawers, &amp;  Hanging Areas (Wyoming Maple &amp; Frappe)</title>
+        <price>₹ 5,450/-</price>
+        <discount>5,500/-</discount>
+    </chairs>
+</data>

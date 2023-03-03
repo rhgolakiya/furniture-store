@@ -1,0 +1,50 @@
+[
+  {
+    "img": "./photoicon/bed1.jpeg",
+    "title": "Petra Engineered Wood Bed With Storage (78x60 inch)",
+    "price": "₹ 40,000/-",
+    "discount": "50,000/-"
+  },
+  {
+    "img": "./photoicon/bed2.jpeg",
+    "title": "Cosmo Platform Low Height Engineered Wood Bed (78x60 inch)",
+    "price": "₹ 35,000/-",
+    "discount": "40,000/-"
+  },
+  {
+    "img": "./photoicon/bed3.jpeg",
+    "title": "Orion Engineered Wood Bed Without Storage (78x60 inch)",
+    "price": "₹ 66,000/-",
+    "discount": "80,000/-"
+  },
+  {
+    "img": "./photoicon/bed4.jpeg",
+    "title": "Leo Engineered Wood Bed Without Storage (78x60 inch)",
+    "price": "₹ 55,000/-",
+    "discount": "66,000/-"
+  },
+  {
+    "img": "./photoicon/bed5.webp",
+    "title": "Taurus Engineered Wood Bed with Storage (78x60 inch)",
+    "price": "₹ 40,000/-",
+    "discount": "50,000/-"
+  },
+  {
+    "img": "./photoicon/bed6.jfif",
+    "title": "Ara Queen Teak Bed with Storage (78x60 inch)",
+    "price": "₹ 40,000/- ",
+    "discount": "56,000/-"
+  },
+  {
+    "img": "./photoicon/bed7.jfif",
+    "title": "Mayall Metal Bed - Queen Size (Pristine White) (78x60 inch)",
+    "price": "₹ 70,000/-",
+    "discount": "82,000/-"
+  },
+  {
+    "img": "./photoicon/bed8.jfif",
+    "title": "Wood bed with storage (78x60 inch)",
+    "price": "₹ 67,000/- ",
+    "discount": "73,000/-"
+  }
+]

@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bed-container{
+    grid-template-columns: auto auto auto auto;
+    gap: 3%;
+    row-gap: 5%;
+}
+.bed-boxes:hover{
+    transform: translateY(-8px);
+}
+.bed-boxes{
+    transition: 0.5s ease;
+}
+.bed-boxes img{
+    height: 250px;
+}
